@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão 2</title>
+    <link rel="stylesheet" href="revisao.css">
+</head>
+<body>
+    <div class="principal">
+        <p>Volte para a página 1 clicando <button><a href="revisao.html" rel="prev">aqui</a></button></p>
+        <h1>Revisão Página 2</h1>
+        <hr>
+        <h1>2 Página da revisão &#x1f600;</h1>
+        <p>Podemos adicionar audios no nosso site, usando a tag audio.<br>Podemos adicionar de duas formas, uma é usando a tag audio e dentro dela adicionando controls, src, preload e type.<br>E podemos também adicionar usando a tag audio e o source src no qual usamos também o type e o preload, além do controls</p>
+        <p><strong>
+            Exemplo:<br>&lt;audio controls preload="metadata"&gt;<br>&lt;source src="audio.mp3" type="audio/mp3"&gt;<br>&lt;/audio&gt;</p>
+            <p>Ou também usando &lt;audio src="audio.mp3" controls preload="metadata"&gt;
+        </strong></p>
+        <p><audio controls>
+            <source src="happy-mistake.mp3" type="audio/mp3">
+        </audio></p>
+        <hr>
+        <h1>Videos</h1>
+        <p>Podemos também adicionar videos no nosso site</p>
+        <p>É praticamente a mesma coisa que o audio, você coloca a tag e os sources para adicioná-los.</p>
+        <p><code>
+            &lt;video controls  width="" poster="thumb.jpeg"&gt;<br> <!--width é largura, height altura-->
+            &lt;source src="caminho" type="video/tipo"&gt;<br>
+            &lt;video&gt;
+        </code></p>
+        <video controls width="500">
+            <source src="video/Video.mp4" type="video/mp4">
+        </video>
+        <h1>IMPORTANTE * SOBRE VIDEOS!</h1>
+        <p>Videos internos, aonde eu coloco eles com o arquivo hospedado no meu computador por exemplo, geram mais custos para o cliente (ou para mim se eu for o dono), então o mais recomendável é upar o video no youtube e incorporar o código dele no site, assim reduzindo muito os custos.</p>
+        <hr>
+        <h1>Degradê em CSS</h1>
+        <p>Podemos também adicionar degradê nas nossas páginas usando CSS, com o <strong>background-image: linear-gradient(to (aqui colocamos a direção, top, right, left, bottom) e colocamos as cores que queremos usar, separado por virgula.</strong><br>E<strong>xemplo: background-image: linear-gradient(to right, blue, red, violet);</strong><br>Se quisermos escolher o grau também podemos, ao inves de colocar a direção usamos o ângulo e deg, exemplo: 45deg<br>Podemos também adicionar quanto da cor queremos que apareça, adicionando a % ao lado, exemplo no azul eu posso colocar 10% ao lado dele.</p>
+        <hr>
+        <h1>Exemplo de site</h1>
+        <strong>
+            <p>Podemos também adicionar vários elementos de CSS para deixar nosso site mais bonito e agradável, alguns exemplos abaixo:</p>
+            <p>
+                    width: 1500px; <br>
+                    background-color:crimson; <br>
+                    text-align: justify; /* Deixa o texto justificado */ <br>
+                    border-radius: 10px; /* cria uma borda arredondada nos cantos da caixa */ <br>
+                    padding: 5px; /* Ele aumenta a lateral da caixa para não encostar muito no texto */ <br>
+                    box-shadow: 5px 5px 10px black; /* Da sombreamento dos lados, embaixo, o nivel e a cor */ <br>
+                    margin: auto; /* Define a margem dos 4 lados, baixo, cima, esquerda, direita de uma só vez, usando o auto ele deixa centralizado, podemos definir valores também caso queiramos, em px */
+            </p>
+        </strong>
+    </div>
+    <div class="principal">
+        <h1>Tipografia</h1>
+        <strong>
+            <p>Temos também a tipografia que é o estudo de como escrever as coisas no papel, nela temos o porquê da importância dos estilos de escrita e fontes, como cada letra tem seu estilo, por exemplo as letras com serifa e sem serifa e as monoespaçadas.<br>Temos também a altura X que determinará qual será a altura das letras minúsculas, Temos também a letra das maíusculas aonde podemos pegar por exemplo o A e o Q.<br>O corpo é o Ascendente + descendente + Am + Ax.<br>Temos também as familias tipográficas que vão do light até o extranegrito</p>
+        </strong>
+        <h1>Familias de fonte com CSS</h1>
+        <strong>
+            <p>Para definirmos a familia da fonte usamos font-family:<br>Safe combination é uma combinação que o CSS da quando vamos escolher a familia da fonte, aonde aparecem 3 opções, uma ao lado da outra, caso alguma não pegue em um computador, ele irá testar as seguintes.</p>
+        </strong>
+        <h1>Tamanho da FONTE</h1>
+        <strong>
+            <p>Para mudarmos o tamanho da fonte usamos font-size , o W3C recomenda usamos px e em para definirmos isso, temos que: Tamanho padrão = 16px, 1em = 16px.</p>
+        </strong>
+    </div>
+</body>
+</html>
